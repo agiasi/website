@@ -1,5 +1,5 @@
 Website::Application.routes.draw do
-  get "web_pages/home"
+    root to: 'web_pages#home'
 
   get "web_pages/help"
 
