@@ -18,7 +18,7 @@
    <!-- <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js" type="text/javascript"></script>
-    <script src="js/jquery.anchor.js" type="text/javascript"></script>
+    <script src="/javascripts/jquery.anchor.js" type="text/javascript"></script>
     <script src="js/jquery.fancybox-1.2.6.pack.js" type="text/javascript"></script>
 	<script type="text/javascript" src="script.js"></script>
 </head>
@@ -34,16 +34,17 @@
      			<nav>
 
         			<ul class="nav pull-right">
-			          <li class='linknudge'><%= link_to "Intro",    '#intro' %></li>
-			          <li class='linknudge'><%= link_to "Resume",    '#portfolio' %></li>
-			          <li class='linknudge'><%= link_to "About", '#about' %></li>
-			           <li class='linknudge'><%= link_to "Contact", '#contact' %></li>
+			         <li><a class="introlink anchorLink" href="#intro">Intro</a></li>
+			          <li><%= link_to "Resume",    '#portfolio'  :class=>"resLink anchorLink"}%></li>
+			          <li><%= link_to "About", '#about'  :class=>"aboutLink anchorLink"}%></li>
+			           <li><%= link_to "Contact", '#contact'  :class=>"contactLink anchorLink"}%></li>
 			        </ul>
 			    </div>
      			</nav>
   		
 
 		</div>
+   
 <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js' type='text/javascript'>
 </script>
 <script type='text/javascript'>
@@ -62,6 +63,7 @@
 
 
 </script>
+
     </header>
 
     <section id="contentcontainer"> <!-- HTML5 section tag for the content 'section' -->

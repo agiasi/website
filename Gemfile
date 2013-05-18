@@ -12,6 +12,9 @@ group :development do
   gem 'sqlite3', '1.3.5'
 end
 
+group :assets do
+  gem 'jquery-smooth-scroll-rails'
+end
 group :development, :test do
   gem 'rspec-rails',      ">= 2.0.0.beta"
 end
