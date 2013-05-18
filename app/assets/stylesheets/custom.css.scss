@@ -146,12 +146,22 @@ input[type="submit"]:hover { color: #fff; border-bottom: 1px solid rgba(0, 0, 0,
 	);
 }
 
-input[type="submit"]:active { position: relative; top: 1px; }
+input[type="submit"]:active { position: relative; top: 1px; margin-bottom: 100px;}
 
-footer {margin-top: 50px; width: 100%; }
+
+footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:70px;
+   width:100%;
+  background-color: rgba(0, 0, 0, 0.7);
+   margin-top:100px;
+}
+
 footer ul { margin-bottom: 150px; }
 footer ul li { display: inline; margin-right: 50px; }
-footer ul li a { font-size: 24px; margin-left: 10px; }
+footer ul li a { font-size: 24px; color: #5cb8ff; margin-left: 10px; }
 footer ul li img { vertical-align: bottom; position: relative; top: 2px; }
 
 #carbonads-container { float: right; margin-right: 10px; margin-top: -50px;}
