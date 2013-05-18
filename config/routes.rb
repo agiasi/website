@@ -1,4 +1,8 @@
 Website::Application.routes.draw do
+  get "web_pages/home"
+
+  get "web_pages/help"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
